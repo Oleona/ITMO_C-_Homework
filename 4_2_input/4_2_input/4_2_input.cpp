@@ -1,15 +1,10 @@
 ﻿using namespace std;
 #include <iostream>
-
-int Input(int a, int b);
+int Input(int &a, int &b);
 
 int main()
 {
-
-	cout << " Input  number a and b " << endl;
 	int a, b;
-	cin >> a;
-	cin >> b;
 	if (Input(a, b) == false)
 	{
 		cerr << "error";
@@ -19,11 +14,14 @@ int main()
 	cout << "sum = " << s << endl;
 	return 0;
 
-
 }
-
-int Input(int a, int b)
+int Input(int&a, int &b)
 {
+	cout << " Input  number a and b " << endl;
+
+	cin >> a;
+	cin >> b;
+
 	if (cin.fail())
 	{
 		cin.clear();
@@ -31,6 +29,10 @@ int Input(int a, int b)
 		return 0;
 	}
 	else
+	{
+		std::cin.ignore(32767, '\n');
 		return 1;
-
+	}
 }
+
+
