@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1500
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10_2_Triangle_and_Dot_ aggregation", "10_2_Triangle_and_Dot_ aggregation\10_2_Triangle_and_Dot_ aggregation.vcxproj", "{FA01351B-A824-4DF1-88E4-C004879DCA3B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA01351B-A824-4DF1-88E4-C004879DCA3B}.Debug|x64.ActiveCfg = Debug|x64
+		{FA01351B-A824-4DF1-88E4-C004879DCA3B}.Debug|x64.Build.0 = Debug|x64
+		{FA01351B-A824-4DF1-88E4-C004879DCA3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA01351B-A824-4DF1-88E4-C004879DCA3B}.Debug|x86.Build.0 = Debug|Win32
+		{FA01351B-A824-4DF1-88E4-C004879DCA3B}.Release|x64.ActiveCfg = Release|x64
+		{FA01351B-A824-4DF1-88E4-C004879DCA3B}.Release|x64.Build.0 = Release|x64
+		{FA01351B-A824-4DF1-88E4-C004879DCA3B}.Release|x86.ActiveCfg = Release|Win32
+		{FA01351B-A824-4DF1-88E4-C004879DCA3B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {522AEE68-DBB5-4AE6-BF72-93673E5453F9}
+	EndGlobalSection
+EndGlobal
